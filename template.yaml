@@ -13,3 +13,5 @@ Resources:
       MemorySize: 128
       Timeout: 3
       AutoPublishAlias: live
+      DeploymentPreference:   
+          Type: Linear10PercentEvery1Minute
