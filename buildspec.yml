@@ -17,4 +17,8 @@ phases:
     post_build:
         commands:
             - echo "we are in the post build phase, you can create the container here."
+artifacts:
+    files:
+        - template.yaml
+        - gen/template.yaml
             
