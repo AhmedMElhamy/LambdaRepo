@@ -1,4 +1,9 @@
-      AutoPublishAlias: live
-
-      DeploymentPreference:
-       Type: Canary10Percent10Minutes 
+version: 0.0
+Resources:
+  - myLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: "myLambdaFunction"
+        Alias: "prod"
+        CurrentVersion: "1"
+        TargetVersion: "2"
