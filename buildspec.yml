@@ -21,5 +21,5 @@ artifacts:
    files:
       - generated-template.yaml
       - template.yaml
-      - Appspec.yml
+      - AppSpec.yml
             
