@@ -12,3 +12,4 @@ Resources:
       Description: A starter AWS Lambda function.
       MemorySize: 128
       Timeout: 3
+      AutoPublishAlias: "prod"
