@@ -1,4 +1,4 @@
 
 
 def lambda_handler(event, context):
-    return "Hello World From SAM using CodeBuild version 13"
+    return "Hello World From SAM using CodeBuild version 4 (Four)"
