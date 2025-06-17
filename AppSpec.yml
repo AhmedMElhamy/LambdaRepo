@@ -3,7 +3,7 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "myLambdaFunction"
+        Name: "hello-world-sam-helloworldpython3-eCctm6k1s9j5"
         Alias: "prod"
-        CurrentVersion: "7"
-        TargetVersion: "8"
+        CurrentVersion: "4"
+        TargetVersion: "5"
